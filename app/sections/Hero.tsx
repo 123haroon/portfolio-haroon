@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { HiArrowRight } from "react-icons/hi2";
+import { HiDownload } from "react-icons/hi";
 
 const Hero = () => {
   return (
@@ -48,6 +49,15 @@ const Hero = () => {
             >
               Contact Me
             </Link>
+
+            <a
+              href="/M-harooncv.pdf"
+              download
+              className="flex w-full items-center justify-center gap-2 rounded-xl border border-zinc-700 bg-zinc-900/60 px-6 py-3.5 text-sm font-semibold text-white transition hover:border-cyan-400 hover:text-cyan-400 sm:w-auto"
+            >
+              Download CV
+              <HiDownload size={18} />
+            </a>
           </div>
 
           <div className="mt-10 flex flex-wrap gap-x-6 gap-y-3 border-t border-zinc-800 pt-6 text-sm text-zinc-500">
