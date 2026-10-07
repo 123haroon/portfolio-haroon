@@ -149,18 +149,26 @@ export const experiences: Experience[] = [
 export const projects: Project[] = [
   {
     id: 1,
-    title: "Amazon Clone",
+    title: "MarketStore",
     description:
-      "A responsive Amazon clone built with Next.js, TypeScript and Tailwind CSS.",
-    technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
-    github: "https://github.com/123haroon/amazon-clone",
-    live: "https://amazon-xi-one.vercel.app/",
+      "A full-stack e-commerce marketplace with authentication, product management, cart, checkout, order management and admin dashboard.",
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "Neon PostgreSQL",
+      "Sequelize",
+    ],
+    github: "https://github.com/123haroon/MarketPlace-Frontend",
+    live: "https://market-place-frontend-olive.vercel.app/",
   },
   {
     id: 2,
     title: "Real-state",
     description:
-      "A responsive Amazon clone built with Next.js, TypeScript and Tailwind CSS.",
+      " A real state WEB Figma Translation using NEXT.JS and Typscript and Tailwind ",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
     github: "https://github.com/123haroon/real-state-web",
     live: "https://real-state-web-puce.vercel.app/",
