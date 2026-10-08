@@ -9,29 +9,36 @@ const About = () => {
 
           <h2 className="mt-4 text-3xl font-bold leading-tight text-white sm:text-4xl">
             Haroon
-            <span className="block text-zinc-500">Frontend Web Developer</span>
+            <span className="block text-zinc-500">
+              Full Stack Web Developer
+            </span>
           </h2>
         </div>
 
         <div className="space-y-5 text-base leading-8 text-zinc-400 sm:text-lg">
           <p>
-            I&apos;m Haroon, a Computer Science graduate with a passion for
-            modern web development. I completed my BS in Computer Science and
-            have been building my skills in frontend development using React,
-            Next.js, TypeScript and JavaScript.
+            I&apos;m Haroon, a Computer Science graduate and Full Stack Web
+            Developer passionate about building modern, responsive, and
+            user-friendly web applications. I work with React.js, Next.js,
+            TypeScript, JavaScript, and Tailwind CSS to create clean and
+            interactive frontend experiences.
           </p>
 
           <p>
-            I enjoy turning ideas into clean, responsive and interactive web
-            experiences. My focus is on writing structured code, creating
-            reusable components and continuously improving my understanding of
-            modern React and frontend development.
+            Beyond frontend development, I have hands-on experience with
+            Node.js, Express.js, PostgreSQL, and Sequelize ORM. I enjoy
+            developing REST APIs, implementing authentication, integrating
+            databases, and connecting frontend applications with backend
+            services.
           </p>
 
           <p>
-            Along with frontend development, I&apos;m also expanding my
-            knowledge of backend fundamentals including Node.js, Express.js,
-            APIs, Postman and database connectivity.
+            I have built full-stack projects like MarketStore, an e-commerce
+            marketplace featuring user authentication, product management,
+            shopping cart, checkout, order management, and an admin dashboard.
+            My focus is on writing maintainable code, building reusable
+            components, solving real-world problems, and continuously improving
+            my development skills.
           </p>
 
           <div className="grid grid-cols-2 gap-4 pt-4 sm:grid-cols-3">
@@ -51,7 +58,7 @@ const About = () => {
               </p>
 
               <p className="mt-2 font-semibold text-white">
-                Frontend Development
+                Full Stack Development
               </p>
             </div>
 
@@ -61,7 +68,7 @@ const About = () => {
               </p>
 
               <p className="mt-2 font-semibold text-white">
-                Next.js + TypeScript
+                Next.js + Node.js + PostgreSQL
               </p>
             </div>
           </div>
